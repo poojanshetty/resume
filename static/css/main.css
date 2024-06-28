@@ -1,0 +1,41 @@
+.left-panel {
+    float:left;
+    width:25vw;
+}
+
+.right-panel {
+    /* background-color:#ffffff; */
+}
+
+.a-self-links {
+    text-decoration:none;
+    float:left;
+    color:black;
+    margin-right:2%;
+}
+
+.profile-img {
+    border-radius: 50%;
+    border: 2px #333 solid;
+}
+
+#a-tag {
+    text-decoration:none;
+}
+
+div hr {
+    margin-right:2%;
+}
+
+table td {
+    border:1px solid black;
+}
+
+dl dt {
+
+}
+
+dl dd {
+    margin-left:10px;
+    margin-bottom:0px;
+}

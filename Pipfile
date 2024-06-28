@@ -1,0 +1,31 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+brotli = "==1.0.9"
+click = "==8.1.1"
+dash = "==2.3.1"
+dash-core-components = "==2.0.0"
+dash-html-components = "==2.0.0"
+dash-table = "==5.0.0"
+flask = "==2.1.1"
+flask-compress = "==1.11"
+flask-sqlalchemy = "==2.5.1"
+importlib-metadata = "==4.11.3"
+itsdangerous = "==2.1.2"
+jinja2 = "==3.1.1"
+markupsafe = "==2.1.1"
+pdfkit = "==1.0.0"
+plotly = "==5.6.0"
+six = "==1.16.0"
+sqlalchemy = "==1.4.32"
+tenacity = "==8.0.1"
+werkzeug = "==2.1.0"
+zipp = "==3.7.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
