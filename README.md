@@ -1,6 +1,9 @@
 FLASK-RESUME
 
-RUN main.py
+ ```shell
+    RUN main.py
+    ```
+    
 ## Usage
 
 To generate a PDF version of your resume, follow these steps:

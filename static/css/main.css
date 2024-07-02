@@ -1,6 +1,6 @@
 .left-panel {
+    width: 25%;
     float:left;
-    width:25vw;
 }
 
 .right-panel {
@@ -15,8 +15,12 @@
 }
 
 .profile-img {
+    width: 100px; /* Increase width to zoom in */
+    height: 120px;
     border-radius: 50%;
-    border: 2px #333 solid;
+    /* border: 2px #333 solid; */
+    object-fit: cover;
+    object-position: center;
 }
 
 #a-tag {
