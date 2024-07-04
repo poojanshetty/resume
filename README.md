@@ -1,6 +1,4 @@
 FLASK-RESUME
-   
-   RUN main.py
     
 ## Usage
 
