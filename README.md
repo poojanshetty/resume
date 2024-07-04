@@ -1,8 +1,6 @@
 FLASK-RESUME
-
- ```shell
-    RUN main.py
-    ```
+   
+   RUN main.py
     
 ## Usage
 
