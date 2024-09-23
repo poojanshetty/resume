@@ -40,3 +40,8 @@ To generate a PDF version of your resume, follow these steps:
 8. Once the page loads, the PDF version of your resume will be automatically generated and saved as `pooja_resume.pdf` in the project directory.
 
 That's it! You have successfully generated a PDF version of your resume using Flask-Resume.
+pdfkit.from_url('http://127.0.0.1:5000/', 'pooja_resume.pdf', options={'disable-smart-shrinking': '','dpi': 400, 'print-media-type': True,'margin-left': '10mm','margin-top': '10mm', 'margin-right': '10mm', 'margin-bottom': '10mm', 'page-size': 'A4'})
+
+
+
+pdfkit.from_url('http://127.0.0.1:5000/', 'pooja_resume.pdf', options={'disable-smart-shrinking': '','dpi': 400,'print-media-type': True,'margin-left': '5mm','margin-top': '5mm','margin-right': '5mm','margin-bottom': '5mm','page-size': 'A4'})
