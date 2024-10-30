@@ -6,20 +6,22 @@ To generate a PDF version of your resume, follow these steps:
 
 1. Make sure you have Python 3 installed on your system.
 
-2. Run the `main.py` file using the following command:
+2. Modify the index.html file with your personal details. 
+
+3. Run the `main.py` file using the following command:
   
    ```shell
     python3 main.py
     ```
 
 
-3. Install the required dependencies by running the following command in your terminal:
+4. Install the required dependencies by running the following command in your terminal:
 
     ```shell
     pip install pdfkit
     ```
 
-4. Open the `main.py` file and add the following code at the end:
+5. Open the `main.py` file and add the following code at the end:
 
     ```python
     import pdfkit
@@ -32,17 +34,17 @@ To generate a PDF version of your resume, follow these steps:
 
     
     ```
-5. Save the file and exit.
+6. Save the file and exit.
 
-6. In your terminal, navigate to the project directory:
+7. In your terminal, navigate to the project directory:
 
     ```shell
     cd /Users/poojanshetty/Documents/Personal_projects/flask-resume/
     ```
 
-7. After the Flask server starts, open your web browser and visit `http://127.0.0.1:5000/`.
+8. After the Flask server starts, open your web browser and visit `http://127.0.0.1:5000/`.
 
-8. Once the page loads, the PDF version of your resume will be automatically generated and saved as `pooja_resume.pdf` in the project directory.
+9. Once the page loads, the PDF version of your resume will be automatically generated and saved as `pooja_resume.pdf` in the project directory.
 
 That's it! You have successfully generated a PDF version of your resume using Flask-Resume.
 
