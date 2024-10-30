@@ -6,7 +6,7 @@ To generate a PDF version of your resume, follow these steps:
 
 1. Make sure you have Python 3 installed on your system.
 
-2. Modify the index.html file with your personal details. 
+2. Modify the `index.html` file with your personal details. 
 
 3. Run the `main.py` file using the following command:
   
